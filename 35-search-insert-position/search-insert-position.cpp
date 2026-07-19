@@ -16,8 +16,11 @@ public:
             else {
                 j = mid - 1;
             }
+            if (i>j){
+                return j+1;
+            }
         }
 
-        return i;
+        return {};
     }
 };
